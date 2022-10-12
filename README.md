@@ -16,17 +16,10 @@ Um design system criado desde o figma até o react utilizando vários pacotes no
 </br>
 </br>
 
-## Oque é e porque usar o storybook:
+## O que é e porque usar o storybook:
 
-#### o storybook é uma maneira mais fácil e dinâmica de você documentar seus components, por exemplo: 
-
-você criou um component do React ou Vue ou qualquer framework que trabalhe com tais </br>
-Normalmente esses components possuem variações, como: hover; focus; active; etc. </br>
-</br>
-você não iria querer fazer cada variação manualmente pra documentar cada componente da sua aplicação </br>
-Aí que entra o storybook. Ele cria para você STORIES que você pode verificar com uma interface </br>
-Contendo todas as variações que você adcionar no arquivo de configuração do component para o Storybook
-
+  Ferramenta que tem como objetivo servir como um ambiente isolado para que os desenvolvedores criem seus componentes, ou seja, ao invés de desenvolver diretamente no software é criado um outro projeto apartado que pode ser reaproveitado até por outras equipes.
+  
  <a href="https://storybook.js.org" alt="Storybook">
     <img src="https://img.shields.io/badge/-📕Storybook-%23d42a08"/>
   </a>
