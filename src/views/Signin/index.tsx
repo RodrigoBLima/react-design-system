@@ -9,11 +9,20 @@ import { TextInput } from "../../components/TextInput";
 import { Envelope, Lock } from "phosphor-react";
 import { Logo } from "./components/Logo";
 
+import signinUser from "../../services/signin";
+
 function Signin() {
   const [isUserSignedIn, setIsUserSignedIn] = React.useState(false);
 
-  function handleSigIn(event: FormEvent) {
+  async function handleSigIn(event: FormEvent) {
     event.preventDefault();
+
+    const params =  {
+      email: 'test@test.com',
+      password: 'test123'
+    }
+    
+    await signinUser(params)
 
     setIsUserSignedIn(true);
   }
