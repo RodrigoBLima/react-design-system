@@ -20,11 +20,6 @@ Um design system criado desde o figma até o react utilizando vários pacotes no
 
   Ferramenta que tem como objetivo servir como um ambiente isolado para que os desenvolvedores criem seus componentes, ou seja, ao invés de desenvolver diretamente no software é criado um outro projeto apartado que pode ser reaproveitado até por outras equipes.
   
- <a href="https://storybook.js.org" alt="Storybook">
-    <img src="https://img.shields.io/badge/-📕Storybook-%23d42a08"/>
+  <a href="https://storybook.js.org" alt="Storybook">
+      <img src="https://img.shields.io/badge/-📕Storybook-%23d42a08"/>
   </a>
-
-
-#### Como entrar no storybook:
-
-<img src="https://raw.githubusercontent.com/eramoss/Design-System/main/public/runStorybook.png" width="600px" align="center" alt="sTORYBOOK TUTORIAL">
